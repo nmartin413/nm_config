@@ -1,0 +1,4 @@
+#!/bin/bash -e
+. ~/.nvm/nvm.sh > /dev/null
+nvm use 5.3  > /dev/null
+node /Users/trunkclub/alfred_scripts/atom_ac_name.js $1

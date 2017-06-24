@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "lsof -i tcp:",
+    "uid" : "761601EF-BED6-4FC7-8B10-F9817EB613A2",
+    "name" : "Process on Port",
+    "keyword" : "process-on-port"
+  }
+}
