@@ -1,51 +1,51 @@
 {
   "alfredtheme" : {
     "result" : {
-      "textSpacing" : 11,
+      "textSpacing" : 2,
       "subtext" : {
         "size" : 10,
-        "colorSelected" : "#D5D5D5FF",
-        "font" : "System",
+        "colorSelected" : "#FEFFFFFF",
+        "font" : "Helvetica Neue",
         "color" : "#D5D5D5FF"
       },
       "shortcut" : {
         "size" : 16,
         "colorSelected" : "#FFFFFFFF",
-        "font" : "System",
+        "font" : "Helvetica Neue",
         "color" : "#C0C0C0FF"
       },
-      "backgroundSelected" : "#7979799D",
+      "backgroundSelected" : "#797979FF",
       "text" : {
         "size" : 15,
         "colorSelected" : "#FEFFFFFF",
-        "font" : "System",
+        "font" : "Helvetica Neue",
         "color" : "#FEFFFFFF"
       },
       "iconPaddingHorizontal" : 9,
-      "paddingVertical" : 9,
-      "iconSize" : 31
+      "paddingVertical" : 7,
+      "iconSize" : 30
     },
     "search" : {
-      "paddingVertical" : 1,
-      "background" : "#D5D5D500",
-      "spacing" : 8,
+      "paddingVertical" : 0,
+      "background" : "#EAEAEA00",
+      "spacing" : 17,
       "text" : {
-        "size" : 33,
+        "size" : 29,
         "colorSelected" : "#000000FF",
-        "font" : "System",
+        "font" : "Helvetica Neue",
         "color" : "#FEFFFFFF"
       },
       "backgroundSelected" : "#B2D7FFFF"
     },
     "window" : {
-      "color" : "#00000034",
-      "paddingHorizontal" : 20,
+      "color" : "#EAEAEA7F",
+      "paddingHorizontal" : 0,
       "width" : 559,
       "borderPadding" : 0,
       "borderColor" : "#7980FFFF",
-      "blur" : 40,
-      "roundness" : 2,
-      "paddingVertical" : 23
+      "blur" : 18,
+      "roundness" : 10,
+      "paddingVertical" : 2
     },
     "credit" : "Nicolas Martin",
     "separator" : {

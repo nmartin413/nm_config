@@ -15,6 +15,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -43,11 +45,15 @@ end alfred_script</string>
 			<key>uid</key>
 			<string>2B62A49E-F027-410F-A914-D09756050251</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -65,13 +71,17 @@ end alfred_script</string>
 				<key>runningsubtext</key>
 				<string>loading...</string>
 				<key>script</key>
-				<string>/Users/trunkclub/alfred_scripts/get_path {query}</string>
+				<string>~/Code/nm_config/alfred_scripts/get_path {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>open in SourceTree</string>
 				<key>title</key>
 				<string>SourceTree Git</string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -80,7 +90,7 @@ end alfred_script</string>
 			<key>uid</key>
 			<string>159E70D8-BD3C-4DB7-95DF-C15348C31820</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -89,11 +99,15 @@ end alfred_script</string>
 	<dict>
 		<key>159E70D8-BD3C-4DB7-95DF-C15348C31820</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>2B62A49E-F027-410F-A914-D09756050251</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>

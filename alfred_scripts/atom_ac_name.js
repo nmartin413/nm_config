@@ -4,9 +4,7 @@ const XML  = require('xml')
 const path = require('path')
 
 const filepaths = [
-  ['home directory', path.join(__dirname, '..')],
-  ['main projects',  path.join(__dirname, '..', 'trunkclub')],
-  ['go projects',    path.join(__dirname, '..', 'trunkclub', 'go', 'src', 'github.com', 'trunkclub')],
+  ['~/Code',  path.join(__dirname, '..')],
 ]
 
 const search        = process.argv[2]

@@ -35,7 +35,10 @@
 			<dict>
 				<key>applescript</key>
 				<string>on alfred_script(q)
-	do shell script "export PATH=$PATH:/Users/trunkclub/.opam/4.02.3/bin; open -a Atom " &amp; q
+	do shell script "open -a Atom " &amp; q
+    -- tell application "Finder"
+	  -- open q using "Atom"
+	-- end tell
 end alfred_script</string>
 				<key>cachescript</key>
 				<true/>
@@ -52,6 +55,8 @@ end alfred_script</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -69,7 +74,7 @@ end alfred_script</string>
 				<key>runningsubtext</key>
 				<string>loading...</string>
 				<key>script</key>
-				<string>~/nm_config/alfred_scripts/get_path {query}</string>
+				<string>~/Code/nm_config/alfred_scripts/get_path {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -79,7 +84,7 @@ end alfred_script</string>
 				<key>title</key>
 				<string>Atom Edit</string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>

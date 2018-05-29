@@ -4,14 +4,11 @@ const XML  = require('xml')
 const path = require('path')
 
 const filepaths = [
-  ['home directory', path.join(__dirname, '..')],
-  ['public repos',   path.join(__dirname, '..', 'public_repos')],
-  ['main projects',  path.join(__dirname, '..', 'trunkclub')],
-  ['go projects',    path.join(__dirname, '..', 'trunkclub', 'go', 'src', 'github.com', 'trunkclub')],
+  ['~/Code',  path.join(__dirname, '..', '..')],
 ]
 
 const search        = process.argv[2]
-const searchPattern = new RegExp('^' + search, 'ig')
+const searchPattern = new RegExp(search, 'ig')
 const searchResults = _.flatten(filepaths.map((args) => {
   const groupName = args[0]
   const filepath  = args[1]
